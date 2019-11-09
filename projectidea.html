@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>INSTANT - Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="interestinit.html">Interest in IT</a></li>
+			<li><a href="idealjob.html">Ideal Job</a></li>
+			<li><a href="personalprofile.html">Personal Profile</a></li>
+			<li><a href="projectidea.html">Project Idea</a></li>
+			<li><a href="references.html">References</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="aboutwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/aboutwrap -->
+	
+	<div class="container">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>Project Idea</h2>
+				<p>This project main idea is to decrease the fatality rate of drink-driving. As one of the caused of high traffic accidents, driving after drinking alcohol can easily and affectively be eliminated not only in Vietnam but around the world. This project will utilize the use of microcomputer and module such as breath analyser, LCD, Clock generator. To be able to complete the project, few hardware will be needed such as Arduino, Raspberry Pi, Arduino Modules, coding skill in Python, C, able to use Linux. This project will be successful if the prototype is working perfectly with designed power and work without any flaw.</p>
+				<p>Over the last couple of months, driving after drinking has been on the news a lot which result in casualties, major injuries and massive loss economically. Even though the numbers of traffic accidents and casualties are decrease every year in Vietnam, 18,736 traffic accidents, 8,248 casualties and 14,802 injuries, the numbers are 5-10 per cent less than previous year(vietnamnews.vn, 2019). This number can be even lower if drunk driving is eliminated. In the first four months alone, there are 50,000 cases violated alcohol related driving law which is 50% of the total cases in 2018 national wide(Ngoc, 2019). Furthermore, Vietnam is in the list of most alcohol consumption in the world, recorded 8.9 litres of pure alcohol per capita in 2017 and this number increase annually(Sen, 2019).</p>
+				<p>This product will be initially made for cars since it will be easier to install, function as well as it won’t be affected by the weather. The project will be controlled by microcontrollers, sensors will be paired with these controllers to collected real-time data. Output of this project will be a touch LCD so that user can interface with the product. The machine is featured with a breath analyser. As the name of it, this module will take real-time measurement of the alcohol in the air. To be able to measure correctly and effectively, the sensor will be placed in front of the driver, directly in their breathing way so that whenever the driver breath-out, the sensor will take that value and determine what happen next. The machine will use car’s battery as their primary power source. For safety purposed, their will be a multi-meter and a fuse in between the powerline. The fuse will blow out if there any short circuit or electrical flaws. The multi-meter will help the driver to see how much voltage is being drawn so that they can determine if anything is wrong with car battery or battery charger in the car. The product will be installed after power line which mean it will only turn on when car is powered. Constant power drainage will be very harmful for car battery and if it ran out, car won’t be able to turn on. It will also be connected to the ignition line so it can control the voltage going in of the igniter. When the alcohol is in the level, the processor will send out 1 which allow VCC to pass through and activate the igniter, likewise, when the alcohol level is high, the processor will send out 0 and won’t allow any current through. A touch LCD will also be featured in the project so that users can add or edit relatives or designated contact numbers that will be called when the driver alcohol level is off. Not only that, driver can also monitor car battery voltage to make sure that it is still in good condition and the battery charger is still working well. GPS is also included; this will send out driver location. This have two main purposes. Firstly, it will send out driver location in case he/she is not able to drive so that relatives can pick them up and go home safely. Secondly, this is also for security purpose. Car theft is quite common these days, by installing this, when ever the car got stolen or went missing, this can help the owner to relocate the device and get it back. Everything can also be monitor through an application, this will make everything easier. The project can also be extended in the future. As marijuana is legalise globally, future update can be another module for THC breath analyser which will detect THC in the air and will similarly as alcohol analyser. Since THC breath analyser has not produce yet so it can’t be installed now.</p>
+				<p>For the project to work, certain hardware and software are needed. The brain of this project is an Arduino which will control, detect, collect and process information. Raspberry Pi will be used with Arduino, this main function is to connect with internet and connect with mobile application. Regards to input, the main censor is breath analyser which will able to measure alcohol level in the air or driver alcohol level to be precise. Touch LCD will be the output for this project, to display information and for user to interface. Battery packs will be used to power the system which will of course tweak to be similar to car battery voltage and current. Furthermore, everything will be placed and installed on a breadboard. Lastly, Arduino Project Hub will be used as code to integrate module will be on there. </p>
+				<p>Since this project is using Arduino, Arduino IDE will be used. This can be downloaded on Arduino website. To be able to use this software, developer need to be able to read and code in C. Like Arduino, Raspberry Pi operation system can also be downloaded on the product webpage. This software requires developers using Linux and Python language to code the microcomputer. Not only that, simple electronics knowledge is needed to be able to connect, set up the circuit for the project. All of these skills and requirement can be obtained if we work hard enough.</p>	
+				<p>The project is considered success if the product detects a glass of alcohol when it’s nearby and send out 0 voltage on the output line. This product won’t allow drunk driver to turn on their vehicle when inappropriate amount of alcohol is detected which will help to decrease the cases of drink-driving as well as its fatality rate. Not only that, this project can also be improved in the future when THC analyser invent.</p>
+			</div>
+
+		</div><! --/row -->
+	</div><! --/container -->
+	
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<!--<div class="col-lg-2">
+					<a href="#"><i class="fa fa-dribbble"></i></a>
+				</div>-->
+				<div class="col-lg-2">
+					<a href="https://www.facebook.com/huukhoi.duong" target="_blank"><i class="fa fa-facebook"></i></a>
+				</div>
+				<!--<div class="col-lg-2">
+					<a href="#"><i class="fa fa-twitter"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div>-->
+				<div class="col-lg-2">
+					<a href="https://www.instagram.com/duonghuukhoi/" target="_blank"><i class="fa fa-instagram"></i></a>
+				</div>
+				<!--<div class="col-lg-2">
+					<a href="#"><i class="fa fa-tumblr"></i></a>
+				</div-->
+			
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/social -->
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<p><b>IT STUDENT & BASKETBALL ADDICT</b></p>
+				</div>
+			
+				<div class="col-lg-4">
+					<p>Born and raised in HCMC</p>
+				</div>
+				<div class="col-lg-4">
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</div><! --/footerwrap -->
+	
+	
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
